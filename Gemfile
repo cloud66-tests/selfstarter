@@ -6,14 +6,16 @@ gem 'rails', '3.2.13'
 gem 'json', '~> 1.7.7'
 
 group :development do
-  gem 'sqlite3'
+  #gem 'sqlite3'
   gem 'pry-rails'
 end
 
 group :production do
-  gem 'thin'
+  #gem 'thin'
   gem 'pg'
 end
+
+gem 'unicorn'
 
 # Gems used only for assets and not required
 # in production environments by default.
