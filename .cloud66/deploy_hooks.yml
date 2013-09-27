@@ -1,0 +1,24 @@
+production:
+  after_rails:
+    - source: /.cloud66/seed.sh
+      destination: ~/seed.sh
+      target: rails
+      execute: true
+      sudo: true
+      apply_during: build_only
+development:
+  after_rails:
+    - source: /.cloud66/seed.sh
+      destination: ~/seed.sh
+      target: rails
+      execute: true
+      sudo: true
+      apply_during: build_only
+staging:
+  after_rails:
+    - source: /.cloud66/seed.sh
+      destination: ~/seed.sh
+      target: rails
+      execute: true
+      sudo: true
+      apply_during: build_only
