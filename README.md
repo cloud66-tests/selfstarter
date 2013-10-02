@@ -21,6 +21,7 @@ Click the badge below and follow the instructions to deploy!
 <a href="http://www.cloud66.com">
 <img src="https://raw.github.com/cloud66-samples/selfstarter/master/doc/easy-deploy.png"/>
 </a>
+
 This repository is a Cloud 66 EasyDeploy repository.
 
 ## Deploying with Cloud 66
