@@ -14,14 +14,18 @@ Selfstarter is a starting point. We made some specific choices with Selfstarter 
 * Selfstarter doesn't come with any authentication, administration, mailers or analytics tools. We recommend adding a basic set of these so that you can message backers and manage orders.
 * There is a payment options component that allows you to define different packages or levels for people to puchase/support at.  You can turn it on and off with a configuration setting.
 
-## Deploying with Cloud 66
-
-Deploying and maintaining a Selfstarter setup through Cloud 66 is extremely easy. Simply follow
-7 steps on [building your stack](https://www.cloud66.com/help/first_stack) to have your own fully functioning Selfstarter installation up and running. 
+## Cloud 66 EasyDeploy Repository
+Deploying and maintaining a Gitlab setup through Cloud 66 is extremely easy. 
+Click the badge below and follow the instructions to deploy!
 
 <a href="http://www.cloud66.com">
-<img src="http://cdn.cloud66.com/images/deploy-with-cloud66.png"/>
+<img src="https://raw.github.com/cloud66-samples/selfstarter/master/doc/easy-deploy.png"/>
 </a>
+This repository is a Cloud 66 EasyDeploy repository.
+
+## Deploying with Cloud 66
+
+Simply follow 7 steps on [building your stack](https://www.cloud66.com/help/first_stack) to have your own fully functioning Selfstarter installation up and running. 
 
 ## Getting Started
 
