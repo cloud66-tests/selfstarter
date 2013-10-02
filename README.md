@@ -21,7 +21,7 @@ Selfstarter is a starting point. We made some specific choices with Selfstarter 
 * There is a payment options component that allows you to define different packages or levels for people to puchase/support at.  You can turn it on and off with a configuration setting.
 
 ## Deploying with Cloud 66
-Deploying and maintaining a XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX setup through Cloud 66 is extremely easy. 
+Deploying and maintaining a Selfstarter setup through Cloud 66 is extremely easy. 
 Click the badge and follow the instructions below to deploy!
 
 #### Deploying on Cloud 66
