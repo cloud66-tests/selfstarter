@@ -3,6 +3,7 @@ production:
     - source: /.cloud66/files/database.yml
       destination: <%= ENV['RAILS_STACK_PATH'] %>/config/database.yml
       target: rails
+      run_on: all_servers
     - source: /.cloud66/files/Procfile
       destination: <%= ENV['RAILS_STACK_PATH'] %>/Procfile
       target: rails
@@ -21,6 +22,7 @@ development:
     - source: /.cloud66/files/database.yml
       destination: <%= ENV['RAILS_STACK_PATH'] %>/config/database.yml
       target: rails
+      run_on: all_servers
     - source: /.cloud66/files/Procfile
       destination: <%= ENV['RAILS_STACK_PATH'] %>/Procfile
       target: rails
@@ -39,6 +41,7 @@ staging:
     - source: /.cloud66/files/database.yml
       destination: <%= ENV['RAILS_STACK_PATH'] %>/config/database.yml
       target: rails
+      run_on: all_servers
     - source: /.cloud66/files/Procfile
       destination: <%= ENV['RAILS_STACK_PATH'] %>/Procfile
       target: rails
