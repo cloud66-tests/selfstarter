@@ -7,9 +7,11 @@ production:
     - source: /.cloud66/files/Procfile
       destination: <%= ENV['RAILS_STACK_PATH'] %>/Procfile
       target: rails
+      run_on: all_servers
     - source: /.cloud66/files/unicorn.rb
       destination: <%= ENV['RAILS_STACK_PATH'] %>/config/unicorn.rb
       target: rails
+      run_on: all_servers
   after_rails:
     - source: /.cloud66/seed.sh
       destination: ~/seed.sh
@@ -26,9 +28,11 @@ development:
     - source: /.cloud66/files/Procfile
       destination: <%= ENV['RAILS_STACK_PATH'] %>/Procfile
       target: rails
+      run_on: all_servers
     - source: /.cloud66/files/unicorn.rb
       destination: <%= ENV['RAILS_STACK_PATH'] %>/config/unicorn.rb
       target: rails
+      run_on: all_servers
   after_rails:
     - source: /.cloud66/seed.sh
       destination: ~/seed.sh
@@ -45,9 +49,11 @@ staging:
     - source: /.cloud66/files/Procfile
       destination: <%= ENV['RAILS_STACK_PATH'] %>/Procfile
       target: rails
+      run_on: all_servers
     - source: /.cloud66/files/unicorn.rb
       destination: <%= ENV['RAILS_STACK_PATH'] %>/config/unicorn.rb
       target: rails
+      run_on: all_servers
   after_rails:
     - source: /.cloud66/seed.sh
       destination: ~/seed.sh
