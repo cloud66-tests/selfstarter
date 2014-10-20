@@ -1,0 +1,15 @@
+production: 
+  rails: 
+    servers:
+      - server:
+          unique_name: rails1
+          vendor: 'do'
+          region: '7'
+          size: '63'
+  postgresql:
+    servers:
+      - server: 
+          unique_name: postgresql1
+          vendor: 'do'
+          region: '7'
+          size: '63'
