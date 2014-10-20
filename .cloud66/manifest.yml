@@ -6,6 +6,8 @@ production:
           vendor: 'digitalocean'
           region: '7'
           size: '63'
+    configuration:
+      use_asset_pipeline: true          
   postgresql:
     servers:
       - server: 
