@@ -14,4 +14,4 @@ production:
           unique_name: postgresql1
           vendor: 'digitalocean'
           region: '7'
-          size: '63'
+          size: '62'
