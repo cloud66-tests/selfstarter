@@ -5,7 +5,7 @@ production:
           unique_name: rails1
           vendor: 'digitalocean'
           region: '7'
-          size: '63'
+          size: '62'
     configuration:
       use_asset_pipeline: true          
   postgresql:
